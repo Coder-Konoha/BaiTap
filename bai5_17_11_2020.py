@@ -19,7 +19,7 @@ else:
 print("Lặp truy xuất đến từng phần tử trong List và thực hiện tính logarith của từng phần tử và in giá trị đó ra màn hình")
 for i in A:
     if i > 0:
-        print("\tLogarit của phần tử thứ %d:" %pt, math.log10(i))
+        print("\tLogarith của phần tử thứ %d:" %pt, math.log10(i))
         pt += 1
     else:
         print("\tKhông thể tính logarith của phần tử thứ %d" %pt)
