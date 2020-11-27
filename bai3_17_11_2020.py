@@ -3,9 +3,9 @@ for kytu in "Konoha":
     print("Ký tự hiện tại:", kytu)
 
 #b.	Lặp qua phần tử của từng mảng
-Anti_Mage = ["Tread", "Fury", "Manta", "Abyssal", "Butterfly", "BKB"]
+anti_mage = ["Tread", "Fury", "Manta", "Abyssal", "Butterfly", "BKB"]
 n=1
-for item in Anti_Mage:
+for item in anti_mage:
     print("Item AM slot %d:" %n, item)
     n += 1
 
@@ -30,22 +30,22 @@ for i in A:
         print(i, end = " ")
 
 #3.	Thay đổi bước nhảy của từng bước lặp
-print("Các số chẵn từ 0 đến 20:")
+print("\nCác số chẵn từ 0 đến 20:")
 for i in range(0, 20, 2):
     print(i, end = " ")
-    print("\nCác số lẻ từ 0 đến 20:")
+print("\nCác số lẻ từ 0 đến 20:")
 for i in range(1, 20, 2):
     print(i, end = " ")
 
 #Vd:
 for i in range(0, 51, 5):
     print(i, end = " ")
-
+print("")
 #4.	Kết hợp vòng lặp for với hàm range và len
-Anti_Mage = ["Tread", "Fury", "Manta", "Abyssal", "Butterfly", "BKB"]
+anti_mage = ["Tread", "Fury", "Manta", "Abyssal", "Butterfly", "BKB"]
 n=1
-for item in range(len(Anti_Mage)):
-    print("Item AM slot %d:" %n, Anti_Mage[item])
+for item in range(len(anti_mage)):
+    print("Item AM slot %d:" %n, anti_mage[item])
     n += 1
 
 #5.	Kết hợp vòng lặp for với else, break, continue
