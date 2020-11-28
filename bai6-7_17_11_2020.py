@@ -5,7 +5,6 @@ for a in range(n):
     A.append((random.uniform(-n, n)))
 gtmax = A[0]
 gtmin = A[0]
-print (A)
 for i in A[1:]:
     if i > gtmax:
         gtmax = i
