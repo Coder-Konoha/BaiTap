@@ -1,5 +1,4 @@
 import random
-import string
 A = {}
 rd_str = ''
 for i in range(5):
