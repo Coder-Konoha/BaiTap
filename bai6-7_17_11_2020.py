@@ -8,8 +8,6 @@ gtmin = A[0]
 for i in A[1:]:
     if i > gtmax:
         gtmax = i
-print("Giá trị lớn nhất là:", gtmax)
 for i in A[1:]:
     if i < gtmin:
         gtmin = i
-print("Giá trị nhỏ nhất là:", gtmin)
