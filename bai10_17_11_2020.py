@@ -24,7 +24,7 @@ print(ex2.head(10))
 ex3 = pd.read_json('https://api.github.com/users/voduytuan/repos')
 print(ex3.head(10))
 #3. Matplotlib
-#Tạo biểu đồ char
+#Tạo biểu đồ bar, column
 plt.bar(ex1.iloc[:, 1], ex1.iloc[:, -1], align = 'center', width = 0.8, color='green')
 plt.title('Point EPL season 2020-2021 round 10 ')
 plt.xlabel('CLB')
