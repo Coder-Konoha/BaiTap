@@ -36,7 +36,7 @@ che_gf = [64, 65, 68, 103, 69, 65, 75]
 season = ['2006-07', '2007-08', '2008-09', '2009-10', '2010-11', '2011-12', '2012-13']
 plt.plot(season, mun_gf, color = 'red')
 plt.plot(che_gf, color = 'blue')
-plt.title("GF Manchester United from seasons 2006 - 2013")
+plt.title("GF Manchester United & Chelsea from seasons 2006 - 2013")
 plt.xlabel('Seasons')
 plt.ylabel('Goal For')
 plt.show()
