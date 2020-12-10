@@ -7,11 +7,11 @@ def get_size(start_path = '.'):
             total_size += os.path.getsize(fp)
     return total_size
 def randomstring(length):
-    letters = string.ascii_lowercase + '0123456789'
+    letters = string.ascii_lowercase + string.ascii_uppercase + '0123456789'
     return ''.join(random.choice(letters) for i in range(length))
 foldername = str(input('Nhập tên thư mục: '))
 filename = str(input('Nhập tên tệp tin: '))
-size = 1048576 * float(input('Nhập dung lượng dữ liệu giới hạn là  1MB <= size <= 1024MB: '))
+size = 1048576 * float(input('Nhập dung lượng dữ liệu giới hạn là 1MB <= size <= 1024MB: '))
 os.mkdir('C:\%s' %foldername)
 os.chdir('C:\%s' %foldername)
 for i in range(int(size/1048576)+1):
