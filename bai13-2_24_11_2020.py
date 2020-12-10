@@ -1,6 +1,6 @@
 import os
-tenthumuc = str(input('Nhập tên thư mục: '))
-tentaptin = str(input('Nhập tên tệp tin: '))
-os.mkdir('C:\%s' %tenthumuc)
-os.chdir('C:\%s' %tenthumuc)
-open(tentaptin, 'x')
+foldername = str(input('Nhập tên thư mục: '))
+filename = str(input('Nhập tên tệp tin: '))
+os.mkdir('C:\%s' %foldername)
+os.chdir('C:\%s' %foldername)
+open(filename, 'x')
